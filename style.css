@@ -6,12 +6,9 @@ margin-left: 200px;
 
 h5{ color:black:}
 
-carousel-inner>.item>img, .carousel-inner>.item>a>img {
-        display: block;
-        height: auto;
-        max-width: 100%;
-        line-height: 1;
-        margin:auto;
-        width: 100%; // Add this
-        }
+.carousel .carousel-item {
+width:600px;
+
+}
+>>>>>>> 97802f3ad4948158f49af8bddef508a2c17576fb
 
