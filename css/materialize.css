@@ -1905,6 +1905,7 @@
 
 .brown-text.text-lighten-3 {
   color: #bcaaa4 !important;
+  font-size: 14px;
 }
 
 .brown.lighten-2 {
@@ -2057,6 +2058,7 @@
 
 .grey-text.text-lighten-4 {
   color: #f5f5f5 !important;
+  font-size: 20px;
 }
 
 .grey.lighten-3 {
