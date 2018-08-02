@@ -55,10 +55,12 @@ form.addEventListener('submit', function(event) {
       errorElement.textContent = result.error.message;
     } else {
       // Send the token to your server.
-      stripeTokenHandler(result.token);
+      //stripeTokenHandler(result.token);
+	  console.log(result.token);
     }
   });
 });
+
 
 
 
@@ -89,10 +91,6 @@ form.addEventListener('submit', function(event) {
 
 	});
 
-	
-	
-	
-	
 	$("#enter_buttons").click(function() {
 
 		
@@ -127,20 +125,24 @@ form.addEventListener('submit', function(event) {
 
 		
 		if (team == "birds") {
+
+	
 			image_source = "https://lh3.googleusercontent.com/aYbdIM1abwyVSUZLDKoE0CDZGRhlkpsaPOg9tNnBktUQYsXflwknnOn2Ge1Yr7rImGk";	
 			$("#error_messagez").html("");
 	
 		} 
+
 		else if (team == "fish") {
 			image_source = "https://nhsbtdbe.blob.core.windows.net/umbraco-assets-corp/1226/facebook-icon-preview-1.png";	
 			$("#error_messagez").html("");
 		}
 		else if (team == "seal") {
+
 			image_source = "http://westpointrecruitment.com/wp-content/uploads/2017/01/bucsnfl-snapcode.png";	
 			$("#error_messagez").html("");
 		}	
 		else {
-			$("#error_messagez").html("Not a social media page.");
+			$("#error_messagez").html("Not a .");
 		}
  
 
@@ -149,13 +151,8 @@ form.addEventListener('submit', function(event) {
 
 	});
 	
+	});
+
 	
-	
-	
-	
-	
-	
-});
-	
-  });
+ });
   
