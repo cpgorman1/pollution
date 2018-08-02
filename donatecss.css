@@ -6,7 +6,8 @@ margin-left: 200px;
 
 h5{ color:black:}
 
-
+.stripe-button{ padding-left:300px;
+padding-right:300px;}
 
 .StripeElement {
   background-color: white;
@@ -43,4 +44,7 @@ padding-left:300px;
 
 }
 
+.button{ padding-left:890px;
+  padding-right:100px;
+}
 

@@ -55,10 +55,18 @@ form.addEventListener('submit', function(event) {
       errorElement.textContent = result.error.message;
     } else {
       // Send the token to your server.
-      stripeTokenHandler(result.token);
+      //stripeTokenHandler(result.token);
+	  console.log(result.token);
     }
   });
 });
+	
+	
+	
+	
+	
+	
+	
 	
   });
   
