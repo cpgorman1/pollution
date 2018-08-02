@@ -18,7 +18,7 @@ crossorigin="anonymous"></script>
   
 
 
-<form action="/charge" method="post" id="payment-form">
+	<form action="/charge" method="post" id="payment-form">
 </head>
 <body>
 <div>
@@ -55,29 +55,36 @@ crossorigin="anonymous"></script>
 		  </h5>
         </div>
         <div class="row center">
-          <a href="https://www.paypal.com/donate/?token=DHUEm-2_wKDVCZFZNlshLbbJHudWrZg0cVJ1RK7y8bjzQ6ztaCniKXOgaLgQrg_pNp7CB0&country.x=US&locale.x=US" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Donate</a>
+     
         </div>
         <br><br>
 
       </div>
     </div>
 	
+	
+
 	<form action="/charge" method="post" id="payment-form">
-  <div class="form-row">
-    <label for="card-element">
-      Credit or debit card
-    </label>
-    <div id="card-element">
-      <!-- A Stripe Element will be inserted here. -->
-    </div>
+		<div class="form-row">
+			<div class="payment">
+				<label for="card-element">
+				  Credit or debit card
+				</label>
+			</div>
+			<div id="card-element">
+			  <!-- A Stripe Element will be inserted here. -->
+			</div>
 
     <!-- Used to display form errors. -->
-    <div id="card-errors" role="alert"></div>
-  </div>
+			<div class="payment">
+				<div id="card-errors" role="alert"></div>
+			</div>
+	</div>
+		<div class="payment">
+			<button>Submit Payment</button>
+		</div>
+    </form>
 
-  <button>Submit Payment</button>
-</form>
-	
 
     <div class="parallax"><<iframe src="https://giphy.com/embed/3og0IPooGNUCe2fEFa" width="900" height="264" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/bbc-stargazing-live-3og0IPooGNUCe2fEFa">via GIPHY</a></p>" 
 	</div>
@@ -160,41 +167,16 @@ crossorigin="anonymous"></script>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="notanimage.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
 
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made by <a class="brown-text text-lighten-3" >Charlene Gorman, Maria Popoca, Victoria Gapp
       </div>
     </div>
   </footer>

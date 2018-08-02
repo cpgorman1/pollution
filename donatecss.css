@@ -17,16 +17,30 @@ h5{ color:black:}
   box-shadow: 0 1px 3px 0 #e6ebf1;
   -webkit-transition: box-shadow 150ms ease;
   transition: box-shadow 150ms ease;
+  padding-left:300px;
+  padding-right:300px;
 }
 
 .StripeElement--focus {
   box-shadow: 0 1px 3px 0 #cfd7df;
+    padding-left:300px;
 }
 
 .StripeElement--invalid {
   border-color: #fa755a;
+    padding-left:300px;
 }
 
 .StripeElement--webkit-autofill {
   background-color: #fefde5 !important;
+    padding-left:300px;
 }
+
+.payment {  
+padding-left:300px;
+  padding-right:300px;
+	color:  teal lighten-1;
+
+}
+
+
