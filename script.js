@@ -60,28 +60,34 @@ form.addEventListener('submit', function(event) {
     }
   });
 });
-$("#enter_button").click(function() {
+
+
+
+
+
+	
+	$("#enter_button").click(function() {
 
 		
-		var food = $("#food").val();
+		var food = $("#animal1").val();
 		var image_source = "";
 
 		
-		if (food == "Chick-Fil-A") {
-			image_source = "https://cdn.vox-cdn.com/thumbor/nYKhwAJivSaJucrk5362JGqO7PI=/0x116:1508x1247/1200x800/filters:focal(0x116:1508x1247)/cdn.vox-cdn.com/uploads/chorus_image/image/46056338/chickfilafood.0.0.png";	
+		if (animal1 == "Seaturtle") {
+			image_source = "https://goo.gl/images/XMQqyL";	
 			$("#error_message").html("");
 		}       
-		else if (food == "McDonalds") {
-			image_source = "https://www.charlescountymd.gov/sites/default/files/coadmin/tourism/mcdonalds-Big-Mac-Extra-Value-Meals.png";	
+		else if (food == "Sea Turtle") {
+			image_source = "https://goo.gl/images/XMQqyL";	
 			$("#error_message").html("");
 		}
 		else {
-			$("#error_message").html("Not Mcdonalds or Chick-Fil-A");
-		}
+			$("#error_message").html("Sea Turtle or Seaturtle");
+
 
 
 		// display the image in the img element 
-		$("#food_image").attr('src', image_source);
+		$("seaturtle_image").attr('src', image_source);
 
 	});
 
@@ -114,25 +120,29 @@ $("#enter_button").click(function() {
 	$("#enter_buttonz").click(function() {
 
 		
-		var team = $("#internet").val();
+		var team = $("#turtle").val();
 		var image_source = "";
 
 		
-		if (team == "Instagram") {
+		if (team == "birds") {
+
+	
 			image_source = "https://lh3.googleusercontent.com/aYbdIM1abwyVSUZLDKoE0CDZGRhlkpsaPOg9tNnBktUQYsXflwknnOn2Ge1Yr7rImGk";	
 			$("#error_messagez").html("");
 	
 		} 
-		else if (team == "Facebook") {
+
+		else if (team == "fish") {
 			image_source = "https://nhsbtdbe.blob.core.windows.net/umbraco-assets-corp/1226/facebook-icon-preview-1.png";	
 			$("#error_messagez").html("");
 		}
-		else if (team == "Snapchat") {
+		else if (team == "seal") {
+
 			image_source = "http://westpointrecruitment.com/wp-content/uploads/2017/01/bucsnfl-snapcode.png";	
 			$("#error_messagez").html("");
 		}	
 		else {
-			$("#error_messagez").html("Not a social media page.");
+			$("#error_messagez").html("Not a .");
 		}
  
 
@@ -141,12 +151,8 @@ $("#enter_button").click(function() {
 
 	});
 	
+	});
+
 	
-	
-	
-	
-	
-	
-	
-  });
+ });
   
