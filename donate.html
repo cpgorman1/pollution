@@ -18,7 +18,7 @@ crossorigin="anonymous"></script>
   
 
 
-<form action="/charge" method="post" id="payment-form">
+	<form action="/charge" method="post" id="payment-form">
 </head>
 <body>
 <div>
@@ -55,29 +55,36 @@ crossorigin="anonymous"></script>
 		  </h5>
         </div>
         <div class="row center">
-          <a href="https://www.paypal.com/donate/?token=DHUEm-2_wKDVCZFZNlshLbbJHudWrZg0cVJ1RK7y8bjzQ6ztaCniKXOgaLgQrg_pNp7CB0&country.x=US&locale.x=US" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Donate</a>
+     
         </div>
         <br><br>
 
       </div>
     </div>
 	
+	
+
 	<form action="/charge" method="post" id="payment-form">
-  <div class="form-row">
-    <label for="card-element">
-      Credit or debit card
-    </label>
-    <div id="card-element">
-      <!-- A Stripe Element will be inserted here. -->
-    </div>
+		<div class="form-row">
+			<div class="payment">
+				<label for="card-element">
+				  Credit or debit card
+				</label>
+			</div>
+			<div id="card-element">
+			  <!-- A Stripe Element will be inserted here. -->
+			</div>
 
     <!-- Used to display form errors. -->
-    <div id="card-errors" role="alert"></div>
-  </div>
+			<div class="payment">
+				<div id="card-errors" role="alert"></div>
+			</div>
+	</div>
+		<div class="payment">
+			<button>Submit Payment</button>
+		</div>
+    </form>
 
-  <button>Submit Payment</button>
-</form>
-	
 
     <div class="parallax"><<iframe src="https://giphy.com/embed/3og0IPooGNUCe2fEFa" width="900" height="264" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/bbc-stargazing-live-3og0IPooGNUCe2fEFa">via GIPHY</a></p>" 
 	</div>
@@ -131,18 +138,61 @@ crossorigin="anonymous"></script>
       </div>
 
     </div>
+
   
 		<br>
 		<br>
 		<br>
 		<br>
 	
-			
+
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="underwater.jpg"
+	alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="notanimage.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
 
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
+
           <h5 class="white-text">Company Bio</h5>
           <p class="grey-text text-lighten-4">We are a team of students trying to warn others about the pollution in the water environment and how it is affecting animals in that environment. Any help will go towards these animals so we can protect their homes.</p>
 
@@ -152,6 +202,9 @@ crossorigin="anonymous"></script>
       </div>
     </div>
     <div class="footer-copyright">
+
+
+
       <div class="container">
 	  <div class="row center">
       <a class="brown-text text-lighten-3" >Made by; Charlene Gorman, Maria Popoca, Victoria Gapp
