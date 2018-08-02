@@ -88,6 +88,7 @@ form.addEventListener('submit', function(event) {
 
 		// display the image in the img element 
 		$("seaturtle_image").attr('src', image_source);
+		}
 
 	});
 
@@ -151,7 +152,6 @@ form.addEventListener('submit', function(event) {
 
 	});
 	
-	});
 
 	
  });
